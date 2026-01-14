@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delthry Theory | Aradhya Srivastava</title>
+
+  <!-- Google + SEO -->
+  <meta name="description" content="Delthry Theory is a satire theory created by Aradhya Srivastava. Knowledge, dynamics and reality check combined with humour.">
+  <meta name="keywords" content="Delthry Theory, Aradhya Srivastava, satire theory, funny website">
+  <meta name="author" content="Aradhya Srivastava">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body{
+      margin:0;
+      background:#0a0a0a;
+      color:#f1f1f1;
+      font-family:Arial, Helvetica, sans-serif;
+      text-align:center;
+    }
+    h1{color:#ff3333;margin-top:20px}
+    h2{color:#7CFF00}
+    .box{
+      max-width:780px;
+      margin:18px auto;
+      padding:16px;
+      border:1px dashed #555;
+      border-radius:14px;
+    }
+    button{
+      background:#ff3333;
+      color:white;
+      border:none;
+      padding:12px 20px;
+      font-size:16px;
+      border-radius:10px;
+      cursor:pointer;
+    }
+    #out{margin-top:14px;font-size:18px;color:#ffd000}
+    footer{margin:30px 0;color:#777;font-size:13px}
+  </style>
+</head>
+
+<body>
+
+<h1>🚨 DELTHRY THEORY™ 🚨</h1>
+<p><b>Created by Aradhya Srivastava</b></p>
+<p><small>A satire theory for entertainment & awareness</small></p>
+
+<div class="box">
+  <h2>What is Delthry Theory?</h2>
+  <p>
+    Delthry Theory explains a state where ideas are extremely powerful,
+    confidence is unlimited, and proofs are considered optional.
+  </p>
+</div>
+
+<div class="box">
+  <h2>Knowledge Delthry</h2>
+  <p>
+    Knowledge Delthry focuses on information that sounds intelligent,
+    feels deep, but is still under observation by reality.
+  </p>
+</div>
+
+<div class="box">
+  <h2>Delthry Dynamics</h2>
+  <p>
+    According to Delthry Dynamics, thoughts move faster than execution,
+    and most results are scheduled for “kal se pakka”.
+  </p>
+</div>
+
+<div class="box">
+  <h2>Special Contributor (Satire)</h2>
+  <p>
+    Ayush Srivastava — known for testing theories during late-night
+    thinking sessions.
+  </p>
+  <small>Note: Respect maintained, humour intended.</small>
+</div>
+
+<div class="box">
+  <h2>Reality Generator</h2>
+  <button onclick="gen()">Generate Reality</button>
+  <div id="out"></div>
+</div>
+
+<script>
+  const reality=[
+    "Confidence: 100% | Data: Loading...",
+    "Theory active only after 2 AM",
+    "Execution.exe not responding",
+    "Trust me bro — verified by vibes",
+    "Result postponed till next motivation"
+  ];
+  function gen(){
+    document.getElementById("out").innerText =
+      reality[Math.floor(Math.random()*reality.length)];
+  }
+</script>
+
+<footer>
+  <p>© 2026 Aradhya Srivastava</p>
+  <p>Satire / Parody Website • No hacking • 100% Safe</p>
+</footer>
+
+</body>
+  </html>
